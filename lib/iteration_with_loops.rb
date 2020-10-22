@@ -11,9 +11,9 @@ def find_min_in_nested_arrays(src)
       if src[raw_index][element_index] < mini_temprature
         mini_temprature = src[raw_index][element_index]
       end
-      src_minimum_temprature << mini_temprature
       element_index +=1
     end
+    src_minimum_temprature << mini_temprature
     raw_index += 1
   end
   src_minimum_temprature
